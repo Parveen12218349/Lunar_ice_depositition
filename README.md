@@ -2,7 +2,8 @@
 
 A Computer Vision pipeline that detects craters in lunar satellite imagery and scores each one for ice-deposit likelihood using a multi-signal approach.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://parveen12218349-lunar-ice-depositition-app.streamlit.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Lunar_ice_depositition-blue?logo=github)](https://github.com/Parveen12218349/Lunar_ice_depositition)
 
 ---
 
@@ -115,13 +116,13 @@ Visualization + Export
 
 ## Deploy to Streamlit Community Cloud
 
-1. Push this repo to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub repo
-4. Set main file: `app.py`
-5. Deploy — free, shareable link
-
-> **Note:** The trained model (`output/ice_detector_model.pkl`) should be committed to the repo or the app will auto-train on first launch (~2 min).
+1. Go to [share.streamlit.io](https://share.streamlit.io)
+2. Sign in with GitHub
+3. Click **New app**
+4. Select repo: `Parveen12218349/Lunar_ice_depositition`
+5. Branch: `master`
+6. Main file path: `app.py`
+7. Click **Deploy**
 
 ---
 
